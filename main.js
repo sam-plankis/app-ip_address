@@ -34,12 +34,12 @@ class IpAddress {
   }
   
   /**
- * Calculate and return the first host IP address from a CIDR subnet.
- * @param {string} cidrStr - The IPv4 subnet expressed
- *                 in CIDR format.
- * @param {callback} callback - A callback function.
- * @return {object} - An IPv4 address and an IPv6 address inside an object.
- */
+   * Calculate and return the first host IP address from a CIDR subnet.
+   * @param {string} cidrStr - The IPv4 subnet expressed
+   *                 in CIDR format.
+   * @param {callback} callback - A callback function.
+   * @return {object} - An IPv4 address and an IPv6 address inside an object.
+  */
  
   getFirstIpAddress(cidrStr, callback) {
     // Initialize return arguments for callback
